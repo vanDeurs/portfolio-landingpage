@@ -48,13 +48,14 @@ html, body {
 /* HEADER TEXT STARTS HERE */
 
 #main-front h1 {
-    font-size: 6rem;
+    font-size: 5.5rem;
     font-weight: 700;
     letter-spacing: 0.3rem;
     font-family: 'Cobblestone';
     text-shadow: -2px 0 black, 0 2px black, 1px 0 #fff, 0 -1px #fff;
     margin: 0 auto;
     color: #fff;
+    padding: 0 5px 0 5px;
 
 }
 
@@ -68,13 +69,14 @@ html, body {
     margin: 0;
     padding: 0;
     margin-bottom: 15px;
+    display: inline-block;
 }
 
 hr {
     border-color: #fff;
     background: #fff;
-    width: 15px;
-    height: 20px;
+    width: 50px;
+    height: 50px;
     display: inline;
     margin: 0 10px;
 }
@@ -165,12 +167,154 @@ footer, .push {
     height: auto !important;
     height: 100%;
     margin: 0 auto -35px;
+}
+
+@media only screen and (max-width: 1322px) {
+    #main-front h1 {
+        font-size: 4.5rem;
+        letter-spacing: 0.25rem;
+    }
+}
+
+@media only screen and (max-width: 1017px) {
+    #main-front h1 {
+        font-size: 4rem;
+        letter-spacing: 0.25rem;
+    }
+}
+
+@media only screen and (max-width: 746px) { 
+    nav ul a {
+        font-size: 3.5rem;
+        padding: 0 40px 7px 40px;
+    }
+    
+    nav h3 {
+        font-size: 1.7rem;
+        margin-top: 12px;
+    }
+}
+
+@media only screen and (max-width: 600px) { 
+    nav ul a {
+        font-size: 3rem;
+        padding: 0 30px 5px 30px;
+    }   
+}
 
 
 
+@media only screen and (max-width: 540px) {
+    #main-front h1 {
+        font-size: 5rem;
+        letter-spacing: 0.25rem;
+    }
+    nav ul a {
+        font-size: 2.9rem;
+        padding: 0 23px 5px 23px;
+        
+    }
+}
 
+@media only screen and (max-width: 532px) {
+    #main-front h2 {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+        display: block;
+        text-decoration: underline;
+    }
+    
+    hr {
+        display: none;
+    }
+}
 
+@media only screen and (max-width: 550px) {
+    nav ul a {
+        font-size: 2.2rem;
+        padding: 0 20px 5px 20px;
+    }
+}
 
+@media only screen and (max-width: 490px) {
+    #main-front h1 {
+        font-size: 4rem;
+        letter-spacing: .2rem;
+    }
+    
+    nav h3 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 480px) {
+    nav ul a {
+        font-size: 1.8rem;
+        padding: 0 13px 2px 13px;
+    }
+}
+
+@media only screen and (max-width: 352px) { 
+    #main-front h1 {
+        font-size: 3.7rem;
+        letter-spacing: .1rem;
+    }
+    
+    #main-front h2 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 343px) { 
+    nav ul a {
+        font-size: 1.6rem;
+        padding: 0 6px 1px 6px;
+    }
+    nav ul li {
+        margin-bottom: .6rem;
+        padding: 7px;
+}
+}
+}
+
+@media only screen and (max-width: 318px) { 
+    #main-front h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }   
+    
+    #main-front h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 302px) { 
+    ul li a {
+        font-size: 1.3rem;
+        padding: 0 4px 1px 4px;
+    }
+}
+
+@media only screen and (max-width: 269px) { 
+    #main-front h1 {
+        font-size: 2.5rem;
+    }
+    
+    ul li a {
+        letter-spacing: 5px;
+        font-size: 1.1rem;
+        padding: 0 1px 1px 1px;
+    }
+}
+
+@media only screen and (max-width: 234px) { 
+    #main-front h1 {
+        font-size: 2rem;
+    }   
+    
+    #main-front h2 {
+        font-size: 1.3rem;
+    }
+}
 
 
 
