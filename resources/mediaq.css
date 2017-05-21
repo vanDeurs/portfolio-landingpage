@@ -24,13 +24,11 @@
     }
 }
 
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 589px) {
     nav ul a {
-        font-size: 3rem;
-        padding: 0 30px 5px 30px;
+        font-size: 3.1rem;
     }   
 }
-
 
 
 @media only screen and (max-width: 540px) {
@@ -39,7 +37,7 @@
         letter-spacing: 0.25rem;
     }
     nav ul a {
-        font-size: 2.9rem;
+        font-size: 3.2rem;
         padding: 0 23px 5px 23px;
         
     }
@@ -60,7 +58,7 @@
 
 @media only screen and (max-width: 550px) {
     nav ul a {
-        font-size: 2.2rem;
+        font-size: 2.5rem;
         padding: 0 20px 5px 20px;
     }
 }
@@ -83,12 +81,19 @@
 }
 @media only screen and (max-width: 480px) {
     nav ul a {
-        font-size: 1.8rem;
+        font-size: 2.2rem;
         padding: 0 13px 2px 13px;
     }
 }
 
-@media only screen and (max-width: 352px) { 
+@media only screen and (max-width: 343px) { 
+    nav ul a {
+        font-size: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 343px) { 
     #main-front h1 {
         font-size: 3.7rem;
         letter-spacing: .1rem;
