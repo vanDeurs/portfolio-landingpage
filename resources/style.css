@@ -167,48 +167,9 @@ section p {
     margin-bottom: 10px;
 }
 
-
-/* FOOTER STARTS HERE */
-
-footer {
-    color: black;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background: darkblue;
-    text-align: center;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-top: 1px solid #fff;
-}
-
-footer h3 {
-    padding: 0;
-    margin: 0;
-    font-size: 1rem
-}
-
-footer, .push {
-    min-height: 35px;
-    max-height: 45px;
-    
-}
-
 .wrapper {
     min-height: 100%;
     height: auto !important;
     height: 100%;
     margin: 0 auto -35px;
-}
-
-/* PAGES START HERE */
-
-#about-me {
-    border-top: 1px solid #fff;
-    margin-top: 25px;
-    background: #fff;
 }
